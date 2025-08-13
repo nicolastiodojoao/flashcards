@@ -16,4 +16,8 @@ footer p{
     font-size: 0.6rem;
     margin-top: 0.5rem;
 }
+::root{
+    --text-color:#46304b;
+     --text-color:#ff0000;
+      --text-color:#ffd900;
     }
