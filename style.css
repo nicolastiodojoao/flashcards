@@ -21,3 +21,17 @@ footer p{
      --text-color:#ff0000;
       --text-color:#ffd900;
     }
+    .container{
+        margin: 1rem 1rem;
+        height:20rem;
+        flex-grow: 1;
+        flex-basis: calc(33%-6rem);
+        }
+        .cartão-corteudo{
+            text-align: center;
+            background-color: var(--card-front-color);
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: transform 300ms ease-in-out;
+            }
+            
