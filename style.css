@@ -16,10 +16,10 @@ footer p{
     font-size: 0.6rem;
     margin-top: 0.5rem;
 }
-::root{
-    --text-color:#46304b;
-     --text-color:#ff0000;
-      --text-color:#ffd900;
+:root{
+    --text-color:#0a0a0a;
+     --card-front-color:#1a1717;
+      --card-bck-color:#16150d;
     }
     .container{
         margin: 1rem 1rem;
@@ -34,4 +34,34 @@ footer p{
             transform-style: preserve-3d;
             transition: transform 300ms ease-in-out;
             }
+            .cartão-corteudo h3{
+                color:var(--text-color)
+            border: 1px solid var(var(--text-color));
+            text-align:left;
+            padding: 0.5em;
+            position:absolute;
+            margin: 0.6em;
+            border: radius 0.6em;
+            font: size 1vw;
+            backface-visibility:hidden;
+            }
+            .cartão-corteudo-pergunta p{
+                color: var(--text-color);
+                font-weight: 500;
+                            }
+            .cartão-corteudo-resposta p{
+                color: var(--card-back-color);
+                font-weight: 700;
+            }
+            .cartão:hover .cartão-corteudo{
+            transform: rotateY(180deg);
+            }
+            .cartão-corteudo-pergunta;{
+            .cartão-corteudo-resposta;
+            backface-visibility:hidden;
+            position:absolute;
+            height: 100%;
+            width: 100%;
+            }
+            
             
